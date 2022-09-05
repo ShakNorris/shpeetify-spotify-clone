@@ -31,7 +31,7 @@ function Sidebar() {
     console.log(playlistID)
   return (
     <div className='text-gray-500 p-5 text-sm border-gray-700 overflow-y-scroll scrollbar-hide h-screen
-    text-xs lg:text-sm sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex'>
+    text-xs lg:text-sm sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex pb-36'>
         <div className='space-y-4'>
             <button className='flex items-center space-x-2 hover:text-white'>
                 <HomeIcon className="h-6 w-6"/>
@@ -56,12 +56,12 @@ function Sidebar() {
             </button>
         
             <button className='flex items-center space-x-2 hover:text-white'>
-                <HeartIcon className="h-6 w-6"/>
+                <HeartIcon className="h-6 w-6 text-blue-500"/>
                 <p>Liked Songs</p>
             </button>
 
             <button className='flex items-center space-x-2 hover:text-white'>
-                <BookmarkIcon className="h-6 w-6"/>
+                <BookmarkIcon className="h-6 w-6 text-green-500"/>
                 <p>Episodes</p>
             </button>
             <hr className='border-t-[0.1px] border-gray-700' />
