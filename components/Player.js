@@ -113,8 +113,7 @@ function Player() {
                 <QueueListIcon className="button m-1" />
                 <ComputerDesktopIcon className="button m-1" />
                 <SpeakerWaveIcon onClick={() => volume > 0 ? (setVolume(0)) : (setVolume(50))} className="button m-1"/>
-                <input 
-                style={{color: "#1DB954"}} 
+                <input
                 className="w-14 md:w-28" 
                 type="range" 
                 onChange={((e) => {setVolume(Number(e.target.value))})}
